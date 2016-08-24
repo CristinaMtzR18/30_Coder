@@ -1,0 +1,84 @@
+/* Tu CSS va aqui */
+							/*** GENERAL ***/
+
+							/*** HEADER ***/
+/*Fondo*/
+.bg-header{
+	background: url("../img/header.jpg");
+	background-size: cover;
+	/*la medida em es como el equivalente de px para responsive en las
+	   medidas del elemento*/
+	height: 40em; 
+	background-position: center;	
+}
+.bg-orange{
+	background-color: #F56142;
+}
+.bg-black{
+	background-color: #413B3B;
+}
+							/*** UTILIDADES ***/
+/*hr*/
+hr{
+	width: 15%;
+	border: 0.2em solid #FF3300;
+}
+.miHr{
+	border: 0.2em solid #FFF;
+}
+/*Textos*/
+.text-white{
+	color: white;
+}
+.text-orange{
+	color: orange;
+}
+/*Margin*/
+.mg-5{
+	margin: 5%;
+}
+.mgt-5{
+	margin-top: 5%;
+}
+.mg-3{
+	margin: 3%;
+}
+.mg-0{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+.mgl-38{
+	margin-left: 45%; 
+}
+.mgl-40{
+	margin-left: 40%;
+}
+.mgt-2{
+	margin-top: 2%;
+}
+/*Padding*/
+.pd-0{
+	padding: 0;
+}
+.pd-5{
+	padding: 5%;
+}
+.pdt-5{
+	padding-top: 5%;
+}
+/*Boton*/
+
+							/*** Breakpoints para el menu ***/
+@media (min-width: 1200px) {
+/*Barra de navegación*/
+.navbar { 
+	background-color: transparent; 
+	background: transparent; 
+	border-color: transparent; 
+} 
+.navbar a{
+	color: white !important;
+	font-weight: 600 !important;
+}
+}
